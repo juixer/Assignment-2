@@ -130,16 +130,47 @@ nav a{
 .text_div{
     text-align: center;
 }
+.watch_now{
+    display: none;
+    position: absolute;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.725);
+    width: 100%;
+    height: 85.6%;
+    padding-top: 45%;
+    border-radius: 15px;
+}
+.watch_now i{
+    color: white;
+    font-size: 40px;
+}
+.watch_now a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+.watch_now a:hover{
+    color:#a389d3;
+}
+.watch_now a:hover > i{
+    color: #a389d3;
+}
 .video_div{
     display: flex;
     margin-top: 50px;
 }
 .video_box{
-    padding: 10px;
+    position: relative;
+    margin-right: 20px;
+}
+
+.video_box:hover >.watch_now{
+    display: block;
 }
 .video_box p{
     max-width: 300px;
-    margin-top: 25px;
+    margin-top: 20px;
     margin-left: 20px;
 }
+
 /* ONLINE SECTION ENDED*/
