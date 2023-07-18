@@ -196,7 +196,7 @@ nav a{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 100px 200px 250px 450px;
+    padding: 0px 200px 0px 450px;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.196);
 }
 .play_div h1{
@@ -208,10 +208,14 @@ nav a{
     margin-top: 25px;
     text-align: right;
 }
+.img_horse{
+    position: relative;
+    top: 200px;
+}
 .img_relative{
     position: relative;
     left: -100px;
-    top: -250px;
+    top: -80px;
 }
 /* PLAY SECTION ENDED*/
 /* GENRE CONTAINER */
@@ -384,9 +388,12 @@ small{
         .play_div img{
             width: 350px;
         }
+        .img_horse{
+            top: -50px;
+        }
         .img_relative{
             left: -50px;
-            top: -130px;
+            top: -180px;
         }
         .img_relative img{
             width: 150px;
