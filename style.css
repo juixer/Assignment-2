@@ -790,7 +790,6 @@ small{
         padding-left: 80px;
     }
     .careers_container{
-        flex-direction: column;
         padding-left: 0;
         padding: 30px;
         text-align: center;
