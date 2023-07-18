@@ -513,6 +513,9 @@ small{
             margin-top: 80px ;
             padding: 10px;
         }
+        .play_div1{
+            padding-left: 30px;
+        }
         .play_div img{
             width: 300px;
         }
