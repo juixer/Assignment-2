@@ -7,6 +7,12 @@
 body{
     font-family: 'Work Sans', sans-serif;
 }
+.gradiant{
+    background: linear-gradient(to bottom, #4677d4, #667bd4, #7e7fd4, #9284d4, #a389d3);;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 /* HEADER SECTION */
 header{
     display: flex;
@@ -43,12 +49,12 @@ nav a{
     text-decoration: none;
 }
 .follow{
-    background-color: #4678d47c;
+    background-color: #4678d44a;
     padding: 10px 25px;
     border-radius: 10px;
 }
 .follow a{
-    margin-right: 10px;
+    margin-left: 10px;
 }
 /* HEADER SECTION ENDED*/
 /* BANNER SECTION */
@@ -74,11 +80,6 @@ nav a{
     font-weight: 600;
 }
 .PRO{
-    background: linear-gradient(to bottom, #4677d4, #667bd4, #7e7fd4, #9284d4, #a389d3);;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-
     text-align: center;
     font-size: 95px;
     font-weight: 800;
@@ -91,7 +92,9 @@ nav a{
     margin-left: 30px;
     list-style: none;
 }
-
+.banner_info li{
+    margin-bottom: 15px;
+}
 .sign_in{
     border-radius: 48px;
     color: #FFF;
@@ -102,7 +105,7 @@ nav a{
     border: none;
     cursor: pointer;
     outline: none;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left: 10px;
 }
 .go{
@@ -115,7 +118,28 @@ nav a{
     border: none;
     cursor: pointer;
     outline: none;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left: 25px;
 }
 /* BANNER SECTION ENDED*/
+/* ONLINE SECTION */
+.online_container{
+    padding: 20px;
+    margin: 50px 200px;
+}
+.text_div{
+    text-align: center;
+}
+.video_div{
+    display: flex;
+    margin-top: 50px;
+}
+.video_box{
+    padding: 10px;
+}
+.video_box p{
+    max-width: 300px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+/* ONLINE SECTION ENDED*/
