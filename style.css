@@ -485,6 +485,9 @@ small{
         .video_box{
             margin-bottom: 20px;
         }
+        .video_box img{
+            width: 100%;
+        }
 
 
         .play_container{
@@ -508,11 +511,11 @@ small{
             top: -50px;
         }
         .img_relative{
-            left: -50px;
-            top: -180px;
+            left: -30px;
+            top: -150px;
         }
         .img_relative img{
-            width: 150px;
+            width: 120px;
         }
 
 
