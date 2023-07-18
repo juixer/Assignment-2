@@ -65,6 +65,9 @@ nav a{
         background-color: #e8e4ef31;
         padding:50px 250px 50px 150px;
     }
+    .gamers_div{
+        text-align: right;
+    }
     .text{
         max-width: 450px;
         margin-top: 15px;
@@ -85,6 +88,7 @@ nav a{
         border: none;
         border-radius: 40px;
         margin-top: 15px;
+        cursor: pointer;
     }
     .purpose{
         color: #534C64;
@@ -260,6 +264,50 @@ nav a{
     top: -80px;
 }
 /* PLAY SECTION ENDED*/
+/* CAREERS SECTION */
+    .careers_container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #4678d498;
+        padding-left: 250px;
+        box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.196);
+    }
+    .careers_div h1{
+        color: black;
+        font-size: 48px;
+        font-weight: 700;
+        margin-bottom: 25px;
+    }
+    .careers_box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .careers_text{
+        color: black;
+        margin-bottom: 25px;
+        font-weight: 600;
+    }
+    .careers{
+        text-align: left;
+        font-weight: 600;
+    }
+    .careers1{
+        text-align: right;
+        font-weight: 600;
+    }
+    .position{
+        margin-top: 25px;
+        font-family: Work Sans;
+        font-size: 20px;
+        font-weight: 600; 
+        padding: 20px 40px; 
+        border-radius: 40px;
+        border: none;
+        cursor: pointer;
+    }
+/* CAREERS SECTION ENDED*/
 /* GENRE CONTAINER */
 .genre_container{
     display: flex;
@@ -269,6 +317,7 @@ nav a{
     background-color: #a389d331;
 }
 .genre_box{
+    cursor: pointer;
     display: flex;
     align-items: center;
     gap: 15px;
@@ -408,7 +457,9 @@ small{
         .gamers_container img{
             width: 100%;
         }
-
+        .gamers_div{
+            text-align: center;
+        }
         .gamer_title{
             text-align: center;
         }
@@ -464,6 +515,23 @@ small{
             width: 150px;
         }
 
+
+        .careers_container{
+            flex-direction: column;
+            padding-left: 0;
+            padding: 10px;
+            text-align: center;
+        }
+        .careers_box{
+            padding: 10px;
+            font-size: 14px;
+        }
+        .position{
+            margin-bottom: 20px;
+        }
+        .careers_div1 img{
+            width: 100%;
+        }
         .genre_container{
             display: grid;
             grid-template-columns: repeat(2,1fr);
