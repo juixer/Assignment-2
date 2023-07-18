@@ -549,14 +549,17 @@ small{
         }
         .genre_container{
             display: grid;
-            grid-template-columns: repeat(2,1fr);
+            grid-template-columns: repeat(3,1fr);
             padding: 50px 10px ;
         }
         .genre_box{
             padding: 5px;
         }
         .genre_box span{
-            font-size: 16px;
+            font-size: 12px;
+        }
+        .genre_box img{
+            width: 30px;
         }
         .box1{
             margin-left: 0;
