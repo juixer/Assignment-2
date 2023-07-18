@@ -500,7 +500,7 @@ small{
 
         .play_container{
             flex-direction: column;
-            padding: 10px;
+            padding: 0px;
         }
         .play_container h1{
             text-align: center;
@@ -514,7 +514,7 @@ small{
             padding-left: 50px;
         }
         .play_div img{
-            width: 330px;
+            width: 300px;
         }
         .img_horse{
             top: -50px;
