@@ -169,8 +169,31 @@ nav a{
 }
 .video_box p{
     max-width: 300px;
-    margin-top: 20px;
+    margin-top: 25px;
     margin-left: 20px;
 }
 
 /* ONLINE SECTION ENDED*/
+/* PLAY SECTION */
+
+.play_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 100px 200px 250px 390px;
+}
+.play_div h1{
+    max-width: 350px;
+    text-align: right;
+}
+.play_div p{
+    max-width: 350px;
+    margin-top: 25px;
+    text-align: right;
+}
+.img_relative{
+    position: relative;
+    left: 180px;
+    top: 90px;
+}
+/* PLAY SECTION ENDED*/
