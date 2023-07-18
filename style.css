@@ -438,11 +438,16 @@ small{
 
         .banner_container{
             flex-direction: column-reverse;
-            padding: 10px;
             overflow: hidden;
         }
         .banner_div1{
             background-position-x: -250px;
+        }
+        .banner_div2{
+            margin-right: 0;
+        }
+        .banner_div2 img{
+            width: 100%;
         }
         .sign_in{
             margin-left: 25px;
@@ -586,4 +591,131 @@ small{
         .tos a{
             margin-right: 0;
         }
+}
+
+@media screen and (min-width:578px) and (max-width:998px) {
+    header{
+        padding: 40px;
+    }
+    nav a{
+        margin-right: 10px;
+    }
+    .banner_container{
+        flex-direction: column-reverse;
+    }
+    .banner_div1{
+        padding: 100px;
+        background-position-x: -100px;
+    }
+    .banner_div2{
+        margin-right: 50px;
+    }
+    .gamers_container{
+        flex-direction: column;
+        padding: 40px;
+    }
+    .gamers_container img{
+        width: 100%;
+    }
+    .gamers_div{
+        text-align: center;
+    }
+    .gamer_title{
+        text-align: center;
+    }
+    .text{
+        text-align: center;
+        margin-left: 0;
+    }
+    .know{
+        text-align:center ;
+    }
+    .purpose{
+        text-align: center;
+    }
+    .online_container{
+        padding: 100px;
+    }
+    .video_div{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .video_box{
+        margin-bottom: 20px;
+    }
+    .video_box img{
+        width: 100%;
+    }
+    .watch_now{
+        bottom: 30%;
+        padding-top: 30%;
+    }
+    .play_container{
+        flex-direction: column;
+        padding: 50px;
+    }
+    .play_container h1{
+        text-align: center;
+    }
+    .play_container p{
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: -150px;
+    }
+    .play_div{
+        margin-top: 0px ;
+        padding-left: 80px;
+    }
+    .careers_container{
+        flex-direction: column;
+        padding-left: 0;
+        padding: 80px;
+        text-align: center;
+    }
+    .careers_box{
+        padding: 10px;
+        font-size: 14px;
+    }
+    .position{
+        margin-bottom: 20px;
+    }
+    
+    .careers_div1 img{
+        width: 100%;
+    }
+    .genre_container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding: 50px 20px ;
+    }
+    .box1{
+        margin-left: 0;
+    }
+
+    footer{
+        padding: 10px;
+    }
+    .footer_icon_container{
+        flex-direction: column;
+        margin: 20px ;
+    }
+    .quick_link{
+        gap: 20px;
+    }
+    .quick_link a{
+        margin-right: 50px;
+    }
+    .follow_link{
+        margin-left: 50px;
+    }
+    .follow_link a{
+        margin-bottom: 0px;
+    }
+    .tos{
+        margin-left: 50px;
+    }
+    .tos a{
+        margin-right: 50px;
+        margin-bottom: 50px;
+    }
 }
