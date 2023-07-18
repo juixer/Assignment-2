@@ -360,7 +360,7 @@ footer a{
     display: flex;
     align-items: center;
     margin-left: 300px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 .footer_icon_container img{
     width: 60px;
@@ -376,7 +376,7 @@ footer a{
     color: #4677d4;
 }
 .quick_link{
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .quick_link a{
     color: #FFF;
@@ -393,7 +393,7 @@ footer a{
     margin-right: 50px;
 }
 .follow_link{
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .tos{
     margin-bottom: 20px;
@@ -440,7 +440,6 @@ small{
             flex-direction: column-reverse;
             padding: 10px;
             overflow: hidden;
-            
         }
         .banner_div1{
             background-position-x: -250px;
@@ -448,6 +447,7 @@ small{
         .sign_in{
             margin-left: 25px;
         }
+        
 
         .gamers_container{
             padding: 40px 10px;
