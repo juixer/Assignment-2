@@ -488,7 +488,10 @@ small{
         .video_box img{
             width: 100%;
         }
-
+        .watch_now{
+            bottom: 30%;
+            padding-top: 30%;
+        }
 
         .play_container{
             flex-direction: column;
