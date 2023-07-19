@@ -550,16 +550,17 @@ small{
         .genre_container{
             display: grid;
             grid-template-columns: repeat(3,1fr);
-            padding: 50px 10px ;
+            padding: 50px 30px ;
+            overflow: hidden;
         }
         .genre_box{
             padding: 5px;
         }
         .genre_box span{
-            font-size: 12px;
+            font-size: 10px;
         }
         .genre_box img{
-            width: 30px;
+            width: 20px;
         }
         .box1{
             margin-left: 0;
@@ -592,7 +593,6 @@ small{
         .tos{
             display: grid;
             grid-template-columns: repeat(2,1fr);
-            margin-left: 50px;
             gap: 20px;
         }
         .tos a{
@@ -814,7 +814,7 @@ small{
     }
     .genre_container{
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(4,1fr);
         padding: 50px 20px ;
     }
     .box1{
