@@ -689,6 +689,15 @@ small{
         grid-template-columns: repeat(3,1fr);
         padding: 50px 20px ;
     }
+    .genre_box{
+        padding: 5px;
+    }
+    .genre_box span{
+        font-size: 16px;
+    }
+    .genre_box img{
+        width: 40px;
+    }
     .box1{
         margin-left: 0;
     }
